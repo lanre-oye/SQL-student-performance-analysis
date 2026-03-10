@@ -8,4 +8,4 @@ This project demonstrates end-to-end data cleaning and transformation using **My
 - **Transactions:** Used `START TRANSACTION` and `COMMIT` for safe data updates.
 
 ## 📁 Files in this Repository
-- `analysis.sql`: The full MySQL script containing the cleaning and analysis logic.
+- [analysis.sql](analysis.sql): The full MySQL script containing the cleaning and analysis logic.
