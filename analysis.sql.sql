@@ -52,10 +52,6 @@ SET Grade = CASE
 END;
 
 -- 6. ADVANCED SQL: JOINS & REPORTING
-/* Let's assume we have a 'Teachers' table to demonstrate JOINS. 
-Even if you don't have it yet, this shows recruiters you know how to link data.
-*/
-
 -- Example: Creating a lookup table for Education Levels
 CREATE TABLE IF NOT EXISTS Education_Levels (
     level_name VARCHAR(50),
@@ -84,4 +80,5 @@ SELECT
 FROM `netfula primary school student performance` s
 INNER JOIN Education_Levels e 
     ON s.`parental level of education` = e.level_name
+
 GROUP BY s.`race/ethnicity`;
